@@ -1,0 +1,688 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-19T16:36:57+00:00",
+  "title": "Design System: NullTrace",
+  "extensions": {
+    "colorMeta": {
+      "floor": {
+        "role": "neutral",
+        "displayName": "Hall Floor",
+        "canonical": "oklch(96.4% 0.005 95.1)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252524",
+          "#424240",
+          "#62615e",
+          "#83827f",
+          "#a6a5a2",
+          "#c9c9c7",
+          "#efeeee"
+        ]
+      },
+      "panel": {
+        "role": "neutral",
+        "displayName": "Counter Panel",
+        "canonical": "oklch(98.5% 0.004 91.4)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252524",
+          "#424240",
+          "#62615f",
+          "#838280",
+          "#a5a5a3",
+          "#c9c9c8",
+          "#eeeeee"
+        ]
+      },
+      "white": {
+        "role": "neutral",
+        "displayName": "Paper White",
+        "canonical": "oklch(100.0% 0.000 89.9)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#a5a5a5",
+          "#c9c9c9",
+          "#eeeeee"
+        ]
+      },
+      "green-floor": {
+        "role": "tertiary",
+        "displayName": "Green Channel Floor",
+        "canonical": "oklch(95.4% 0.007 132.4)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#242524",
+          "#414240",
+          "#60625e",
+          "#81837f",
+          "#a4a6a3",
+          "#c8c9c7",
+          "#eeefee"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "oklch(89.7% 0.013 91.5)",
+        "tonalRamp": [
+          "#0b0b0a",
+          "#262522",
+          "#43423d",
+          "#63615a",
+          "#85827b",
+          "#a7a59f",
+          "#cac9c5",
+          "#efeeec"
+        ]
+      },
+      "line-strong": {
+        "role": "neutral",
+        "displayName": "Strong Hairline",
+        "canonical": "oklch(82.0% 0.017 91.6)",
+        "tonalRamp": [
+          "#0c0b0a",
+          "#262521",
+          "#44423b",
+          "#646158",
+          "#858278",
+          "#a7a59d",
+          "#cbc9c4",
+          "#efeeec"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "oklch(19.1% 0.000 89.9)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#a5a5a5",
+          "#c9c9c9",
+          "#eeeeee"
+        ]
+      },
+      "ink-2": {
+        "role": "neutral",
+        "displayName": "Ink 2",
+        "canonical": "oklch(38.4% 0.011 84.6)",
+        "tonalRamp": [
+          "#0c0b0a",
+          "#262523",
+          "#44423e",
+          "#64615b",
+          "#85827c",
+          "#a7a5a0",
+          "#cac9c6",
+          "#efeeed"
+        ]
+      },
+      "ink-3": {
+        "role": "neutral",
+        "displayName": "Ink 3",
+        "canonical": "oklch(51.5% 0.015 86.9)",
+        "tonalRamp": [
+          "#0c0b0a",
+          "#262522",
+          "#44423c",
+          "#646159",
+          "#86827a",
+          "#a8a59e",
+          "#cbc9c5",
+          "#efeeec"
+        ]
+      },
+      "sign": {
+        "role": "neutral",
+        "displayName": "Enamel Black",
+        "canonical": "oklch(19.1% 0.000 89.9)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#a5a5a5",
+          "#c9c9c9",
+          "#eeeeee"
+        ]
+      },
+      "sign-2": {
+        "role": "neutral",
+        "displayName": "Sign 2",
+        "canonical": "oklch(26.1% 0.010 88.8)",
+        "tonalRamp": [
+          "#0b0b0a",
+          "#262523",
+          "#43423e",
+          "#63615c",
+          "#84827d",
+          "#a6a5a1",
+          "#cac9c6",
+          "#efeeed"
+        ]
+      },
+      "sign-3": {
+        "role": "neutral",
+        "displayName": "Sign 3",
+        "canonical": "oklch(33.8% 0.011 84.6)",
+        "tonalRamp": [
+          "#0c0b0a",
+          "#262522",
+          "#44423e",
+          "#64615b",
+          "#85827c",
+          "#a7a5a0",
+          "#cac9c6",
+          "#efeeed"
+        ]
+      },
+      "sign-ink": {
+        "role": "neutral",
+        "displayName": "Sign White",
+        "canonical": "oklch(96.4% 0.005 95.1)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252524",
+          "#424240",
+          "#62615e",
+          "#83827f",
+          "#a6a5a2",
+          "#c9c9c7",
+          "#efeeee"
+        ]
+      },
+      "sign-ink-2": {
+        "role": "neutral",
+        "displayName": "Sign Grey",
+        "canonical": "oklch(77.1% 0.018 88.0)",
+        "tonalRamp": [
+          "#0c0b09",
+          "#272521",
+          "#44423b",
+          "#656157",
+          "#868278",
+          "#a8a59d",
+          "#cbc9c4",
+          "#efeeec"
+        ]
+      },
+      "yellow": {
+        "role": "primary",
+        "displayName": "Wayfinding Yellow",
+        "canonical": "oklch(85.7% 0.165 86.5)",
+        "tonalRamp": [
+          "#110a00",
+          "#342100",
+          "#5b3c00",
+          "#855800",
+          "#a87a00",
+          "#c3a04e",
+          "#ddc794",
+          "#f8eed6"
+        ]
+      },
+      "yellow-2": {
+        "role": "primary",
+        "displayName": "Pale Yellow",
+        "canonical": "oklch(89.1% 0.144 90.8)",
+        "tonalRamp": [
+          "#100a00",
+          "#302300",
+          "#553f00",
+          "#7d5c00",
+          "#9f7e00",
+          "#bba35c",
+          "#d8c89b",
+          "#f6eed9"
+        ]
+      },
+      "yellow-tint": {
+        "role": "primary",
+        "displayName": "Notice Cream",
+        "canonical": "oklch(96.4% 0.052 92.9)",
+        "tonalRamp": [
+          "#0d0b07",
+          "#292519",
+          "#48422d",
+          "#6a6143",
+          "#8c8263",
+          "#aca58d",
+          "#cec9b9",
+          "#f1eee7"
+        ]
+      },
+      "red": {
+        "role": "secondary",
+        "displayName": "Channel Red",
+        "canonical": "oklch(56.7% 0.207 29.5)",
+        "tonalRamp": [
+          "#190403",
+          "#470d08",
+          "#7a160e",
+          "#b21f14",
+          "#da4a3a",
+          "#ee8272",
+          "#feb4a8",
+          "#ffe5df"
+        ]
+      },
+      "red-deep": {
+        "role": "secondary",
+        "displayName": "Oxblood",
+        "canonical": "oklch(47.5% 0.174 29.5)",
+        "tonalRamp": [
+          "#170504",
+          "#42130e",
+          "#73231a",
+          "#a73327",
+          "#ce5749",
+          "#e4897b",
+          "#f6b8ad",
+          "#ffe6e1"
+        ]
+      },
+      "red-tint": {
+        "role": "secondary",
+        "displayName": "Held Blush",
+        "canonical": "oklch(93.9% 0.025 26.9)",
+        "tonalRamp": [
+          "#0d0a0a",
+          "#2a2322",
+          "#4a3f3d",
+          "#6d5d5b",
+          "#8f7e7b",
+          "#afa1a0",
+          "#d0c7c5",
+          "#f2eded"
+        ]
+      },
+      "red-ink": {
+        "role": "secondary",
+        "displayName": "Held Ink",
+        "canonical": "oklch(42.3% 0.153 29.5)",
+        "tonalRamp": [
+          "#160605",
+          "#3f1611",
+          "#6e2820",
+          "#a03c30",
+          "#c65e50",
+          "#dd8d80",
+          "#f1bab0",
+          "#ffe7e3"
+        ]
+      },
+      "green": {
+        "role": "tertiary",
+        "displayName": "Channel Green",
+        "canonical": "oklch(53.6% 0.146 150.6)",
+        "tonalRamp": [
+          "#030f05",
+          "#072d14",
+          "#0c5025",
+          "#0d7537",
+          "#3d9858",
+          "#78b686",
+          "#add5b4",
+          "#e1f4e5"
+        ]
+      },
+      "green-tint": {
+        "role": "tertiary",
+        "displayName": "Cleared Mint",
+        "canonical": "oklch(94.2% 0.024 159.1)",
+        "tonalRamp": [
+          "#090c0a",
+          "#212723",
+          "#3b453f",
+          "#57655d",
+          "#78867e",
+          "#9da8a1",
+          "#c4cbc7",
+          "#ecefed"
+        ]
+      },
+      "green-ink": {
+        "role": "tertiary",
+        "displayName": "Cleared Ink",
+        "canonical": "oklch(40.9% 0.110 151.2)",
+        "tonalRamp": [
+          "#050e07",
+          "#122b19",
+          "#214d2e",
+          "#317144",
+          "#539364",
+          "#84b28e",
+          "#b4d2ba",
+          "#e4f3e7"
+        ]
+      },
+      "lamp-go": {
+        "role": "neutral",
+        "displayName": "Go Lamp",
+        "canonical": "oklch(71.2% 0.164 154.1)",
+        "tonalRamp": [
+          "#010f05",
+          "#002e14",
+          "#005225",
+          "#007838",
+          "#199b58",
+          "#6bb986",
+          "#a6d7b5",
+          "#def5e5"
+        ]
+      },
+      "lamp-stop": {
+        "role": "neutral",
+        "displayName": "Stop Lamp",
+        "canonical": "oklch(68.7% 0.203 27.8)",
+        "tonalRamp": [
+          "#190403",
+          "#460d0a",
+          "#791714",
+          "#b1211e",
+          "#d94b41",
+          "#ed8276",
+          "#fdb4aa",
+          "#ffe5e0"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Hero manifest figure only."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "One page title per view."
+      },
+      "sign": {
+        "displayName": "Sign",
+        "purpose": "Lane headers, wordmark and manifest figures; the signage voice."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Section headings, verdict headline, empty-state headings."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Base 15px reading text; answers capped at 72ch."
+      },
+      "ui": {
+        "displayName": "UI",
+        "purpose": "Nav, tabs, buttons, list rows."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Status-sign labels, meta, table heads, badges."
+      },
+      "payload": {
+        "displayName": "Payload",
+        "purpose": "Composer, original text and code blocks."
+      },
+      "payload-sm": {
+        "displayName": "Payload Small",
+        "purpose": "JSON bodies, tokens, vault values, headers."
+      }
+    },
+    "shadows": [
+      {
+        "name": "drawn-rule",
+        "value": "inset 0 0 0 1px var(--color-line)",
+        "purpose": "Outline of every white well and list."
+      },
+      {
+        "name": "drawn-rule-strong",
+        "value": "inset 0 0 0 1.5px var(--color-line-strong)",
+        "purpose": "Composer and outline buttons."
+      },
+      {
+        "name": "ink-focus",
+        "value": "inset 0 0 0 2px var(--color-ink)",
+        "purpose": "Composer focus-within and selected radio card."
+      },
+      {
+        "name": "card-lift",
+        "value": "0 1px 2px rgba(20,20,20,0.06), inset 0 0 0 1px var(--color-line)",
+        "purpose": "User message cards."
+      },
+      {
+        "name": "action-lift",
+        "value": "0 2px 6px rgba(20,20,20,0.18)",
+        "purpose": "Primary button at rest."
+      },
+      {
+        "name": "action-lift-hover",
+        "value": "0 4px 12px rgba(20,20,20,0.22)",
+        "purpose": "Primary button hover."
+      },
+      {
+        "name": "gate-lift",
+        "value": "0 3px 10px rgba(20,20,20,0.28)",
+        "purpose": "Gate marker on the lane seam."
+      },
+      {
+        "name": "tooltip-lift",
+        "value": "0 6px 18px rgba(20,20,20,0.25)",
+        "purpose": "Black held-value tooltip."
+      },
+      {
+        "name": "thumb",
+        "value": "0 1px 3px rgba(20,20,20,0.3)",
+        "purpose": "Switch thumb."
+      },
+      {
+        "name": "held-underline",
+        "value": "inset 0 -2px 0 var(--color-red)",
+        "purpose": "Underline on held values."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out-expo",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Entrances, stamp and switch thumb."
+      },
+      {
+        "name": "march",
+        "value": "march 1100ms ease-in-out infinite, 140ms stagger",
+        "purpose": "Green-lane chevrons while a request is in transit."
+      },
+      {
+        "name": "stamp",
+        "value": "stamp 520ms cubic-bezier(0.16, 1, 0.3, 1) both",
+        "purpose": "Verdict stamp lands from scale 1.18, -4deg, 3px blur to rest at -2deg."
+      },
+      {
+        "name": "rise",
+        "value": "rise 320ms cubic-bezier(0.16, 1, 0.3, 1) both",
+        "purpose": "New conversation turns and held-item chips enter 6px up."
+      },
+      {
+        "name": "state",
+        "value": "200ms",
+        "purpose": "Colour, transform and blur state transitions."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "animation-duration and transition-duration 0.01ms, 1 iteration",
+        "purpose": "prefers-reduced-motion: reduce clamps everything."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "sm",
+        "value": "640px"
+      },
+      {
+        "name": "md",
+        "value": "768px"
+      },
+      {
+        "name": "lg",
+        "value": "1024px"
+      },
+      {
+        "name": "xl",
+        "value": "1280px"
+      },
+      {
+        "name": "2xl",
+        "value": "1536px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button (Clear customs)",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The single yellow primary action per surface.",
+      "html": "<button class=\"ds-btn-primary\"><svg width=\"17\" height=\"17\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14\"/><path d=\"m12 5 7 7-7 7\"/></svg>Clear customs</button>",
+      "css": ".ds-btn-primary{display:inline-flex;align-items:center;gap:8px;background:var(--color-yellow,#ffc72c);color:var(--color-ink,#141414);font:800 15px/1.2 'Hanken Grotesk', ui-sans-serif, system-ui, sans-serif;padding:8px 16px;border:0;border-radius:3px;box-shadow:0 2px 6px rgba(20,20,20,.18);cursor:pointer;transition:background-color .2s,box-shadow .2s}.ds-btn-primary:hover{background:var(--color-yellow-2,#ffd75e);box-shadow:0 4px 12px rgba(20,20,20,.22)}.ds-btn-primary:active{transform:translateY(1px)}.ds-btn-primary:focus-visible{outline:2.5px solid #141414;outline-offset:2px}.ds-btn-primary:disabled{background:#f4f3ef;color:#6b675e;box-shadow:none;cursor:not-allowed}"
+    },
+    {
+      "name": "Destructive Button (two-step wipe)",
+      "kind": "button",
+      "refersTo": "button-destructive",
+      "description": "Outlined red-ink wipe that arms to solid red on first press.",
+      "html": "<div style=\"display:flex;gap:8px\"><button class=\"ds-btn-wipe\">Wipe vault</button><button class=\"ds-btn-wipe ds-armed\">Confirm: destroy everything</button></div>",
+      "css": ".ds-btn-wipe{font:800 13.5px/1.2 'Hanken Grotesk', ui-sans-serif, system-ui, sans-serif;padding:6px 12px;border:0;border-radius:3px;background:transparent;color:#8f1a11;box-shadow:inset 0 0 0 1.5px #d52b1e;cursor:pointer;transition:background-color .2s}.ds-btn-wipe:hover{background:#fbe5e2}.ds-btn-wipe.ds-armed{background:#d52b1e;color:#fff;box-shadow:none}.ds-btn-wipe.ds-armed:hover{background:#a81f15}.ds-btn-wipe:focus-visible{outline:2.5px solid #141414;outline-offset:2px}"
+    },
+    {
+      "name": "Sign Bar",
+      "kind": "nav",
+      "refersTo": "sign-bar",
+      "description": "Black enamel header: wordmark, nav with yellow active item, status signs with lamps.",
+      "html": "<header class=\"ds-sign\"><span class=\"ds-mark\">Null<span>Trace</span></span><nav class=\"ds-nav\"><button aria-current=\"page\">Workspace</button><button>Policy</button><button>Audit log</button></nav><div class=\"ds-status\"><span class=\"ds-status-l\">On-device engine</span><span class=\"ds-status-v\"><i class=\"ds-lamp\"></i>Gemini Nano 4 ready</span></div></header>",
+      "css": ".ds-sign{display:flex;align-items:stretch;gap:24px;background:#141414;color:#f4f3ef;padding:0 20px;font-family:'Hanken Grotesk', ui-sans-serif, system-ui, sans-serif}.ds-mark{align-self:center;font-size:21px;font-weight:800;letter-spacing:-.02em}.ds-mark span{color:#ffc72c}.ds-nav{display:flex;gap:4px}.ds-nav button{position:relative;background:none;border:0;color:#b9b4a8;font:600 14px 'Hanken Grotesk', ui-sans-serif, system-ui, sans-serif;padding:16px 10px;cursor:pointer;transition:color .2s}.ds-nav button:hover{color:#f4f3ef}.ds-nav button[aria-current]{color:#ffc72c}.ds-nav button[aria-current]::after{content:'';position:absolute;left:10px;right:10px;bottom:0;height:3px;background:#ffc72c}.ds-nav button:focus-visible{outline:2.5px solid #ffc72c;outline-offset:-4px}.ds-status{margin-left:auto;display:flex;flex-direction:column;justify-content:center;padding:12px 16px;border-left:1px solid #3a3731}.ds-status-l{font-size:11px;font-weight:500;color:#b9b4a8}.ds-status-v{margin-top:6px;display:flex;align-items:center;gap:6px;font-size:13.5px;font-weight:700}.ds-lamp{width:8px;height:8px;border-radius:999px;background:#2fbf71}"
+    },
+    {
+      "name": "Lanes and Gate",
+      "kind": "custom",
+      "refersTo": "lane-red",
+      "description": "Signature split: red Goods-to-declare lane, green Nothing-to-declare lane, yellow gate marker on the seam.",
+      "html": "<div class=\"ds-lanes\"><div class=\"ds-lane ds-red\"><div><b>Goods to declare</b><span><strong>4</strong> held on this device</span></div></div><div class=\"ds-lane ds-green\"><div><b>Nothing to declare</b><span><strong>1</strong> cleared to Google</span></div><span class=\"ds-chev\" aria-hidden=\"true\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\"><path d=\"m9 18 6-6-6-6\"/></svg><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\"><path d=\"m9 18 6-6-6-6\"/></svg><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\"><path d=\"m9 18 6-6-6-6\"/></svg></span></div><div class=\"ds-gate\">3 of 4 &middot; In transit to Gemini</div></div>",
+      "css": ".ds-lanes{position:relative;display:grid;grid-template-columns:1fr 1fr;color:#fff;font-family:'Hanken Grotesk', ui-sans-serif, system-ui, sans-serif}.ds-lane{min-height:56px;display:flex;align-items:center;gap:12px;padding:10px 20px;line-height:1.25}.ds-lane b{display:block;font-size:19px;font-weight:800;letter-spacing:-.01em}.ds-lane span{font-size:13px;font-weight:600}.ds-red{background:#d52b1e}.ds-green{background:#00843d;justify-content:flex-end;text-align:right}.ds-chev{display:flex}.ds-chev svg{margin-left:-8px;animation:ds-march 1.1s ease-in-out infinite}.ds-chev svg:first-child{margin-left:0}.ds-chev svg:nth-child(2){animation-delay:.14s}.ds-chev svg:nth-child(3){animation-delay:.28s}@keyframes ds-march{0%,100%{opacity:.3;transform:translateX(0)}50%{opacity:1;transform:translateX(3px)}}.ds-gate{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);background:#ffc72c;color:#141414;font-size:14px;font-weight:800;white-space:nowrap;padding:8px 16px;border-radius:3px;box-shadow:0 3px 10px rgba(20,20,20,.28)}@media (prefers-reduced-motion:reduce){.ds-chev svg{animation:none}}"
+    },
+    {
+      "name": "Held Value and Cleared Token",
+      "kind": "chip",
+      "refersTo": "held-value",
+      "description": "Real value marked in place (red) and the placeholder that crossed instead (green); unknown token in cream.",
+      "html": "<p class=\"ds-payload\">Contact <span class=\"ds-held\" tabindex=\"0\">dr.lee@clinic.org</span> becomes <span class=\"ds-token\">[EMAIL_1]</span>; unknown <span class=\"ds-unknown\">[NAME_9]</span></p>",
+      "css": ".ds-payload{font:400 12px/1.8 'Martian Mono', ui-monospace, Menlo, monospace;color:#141414}.ds-held{background:#fbe5e2;color:#8f1a11;padding:0 3px;border-radius:2px;box-shadow:inset 0 -2px 0 #d52b1e;cursor:help;transition:background-color .2s}.ds-held:hover{background:#f7d3ce}.ds-held:focus-visible{outline:2px solid #d52b1e;outline-offset:1px}.ds-token{background:#00843d;color:#fff;font-weight:500;padding:1px 4px;border-radius:2px;box-decoration-break:clone;-webkit-box-decoration-break:clone}.ds-unknown{background:#fff3cc;color:#141414;padding:0 4px;border-radius:2px;box-shadow:inset 0 0 0 1px #ffc72c}"
+    },
+    {
+      "name": "Verdict Banner with Stamp",
+      "kind": "card",
+      "refersTo": "verdict-clean",
+      "description": "One per captured request: green when 0 protected bytes, red (add ds-leak) otherwise, stamped.",
+      "html": "<div class=\"ds-verdict\"><p><b>0 bytes of protected data in this request</b>Scanned all 1,284 bytes against every value in your vault</p><span class=\"ds-stamp\">CLEARED</span></div>",
+      "css": ".ds-verdict{display:flex;align-items:center;gap:12px;background:#00843d;color:#fff;padding:14px 16px;border-radius:3px;font-family:'Hanken Grotesk', ui-sans-serif, system-ui, sans-serif}.ds-verdict.ds-leak{background:#d52b1e}.ds-verdict p{flex:1;margin:0;font-size:14.5px;font-weight:600;line-height:1.35}.ds-verdict b{display:block;font-size:16px;font-weight:800}.ds-stamp{font-size:13px;font-weight:800;letter-spacing:.08em;padding:4px 10px;border-radius:2px;box-shadow:inset 0 0 0 2.5px currentColor;transform:rotate(-2deg);animation:ds-stamp .52s cubic-bezier(.16,1,.3,1) both}@keyframes ds-stamp{from{opacity:0;transform:scale(1.18) rotate(-4deg);filter:blur(3px)}to{opacity:1;transform:scale(1) rotate(-2deg);filter:blur(0)}}@media (prefers-reduced-motion:reduce){.ds-stamp{animation:none}}"
+    },
+    {
+      "name": "Manifest Strip",
+      "kind": "custom",
+      "refersTo": "manifest-strip",
+      "description": "Black footer: the yellow zero-bytes hero figure plus secondary counters.",
+      "html": "<footer class=\"ds-manifest\"><div class=\"ds-hero\"><span>Protected data that left this device</span><strong>0<small>bytes</small></strong></div><div class=\"ds-fig\"><span>Values held on device</span><strong>12</strong></div><div class=\"ds-fig\"><span>Inspection on device</span><strong>8.4<small>ms</small></strong></div></footer>",
+      "css": ".ds-manifest{display:grid;grid-template-columns:1.35fr 1fr 1fr;background:#141414;color:#f4f3ef;font-family:'Hanken Grotesk', ui-sans-serif, system-ui, sans-serif;font-variant-numeric:tabular-nums}.ds-manifest span{display:block;font-size:13px;font-weight:600;color:#b9b4a8}.ds-hero{padding:10px 20px}.ds-hero strong{display:block;margin-top:4px;color:#ffc72c;font-size:48px;line-height:.9;font-weight:800;letter-spacing:-.035em}.ds-hero small{margin-left:6px;font-size:22px;letter-spacing:0}.ds-fig{display:flex;flex-direction:column;justify-content:space-between;gap:4px;padding:10px 20px;border-left:1px solid #3a3731}.ds-fig span{font-size:12.5px;font-weight:500}.ds-fig strong{font-size:26px;line-height:1;font-weight:800;letter-spacing:-.02em}.ds-fig small{margin-left:4px;font-size:13px;font-weight:600;letter-spacing:0;color:#b9b4a8}"
+    },
+    {
+      "name": "Composer",
+      "kind": "input",
+      "refersTo": "composer",
+      "description": "White well, mono payload text, ink inset on focus.",
+      "html": "<div class=\"ds-composer\"><textarea rows=\"3\" aria-label=\"Your message\" placeholder=\"Paste text, code or a document. Real values stay on this device.\"></textarea><div class=\"ds-tools\">Ctrl + Enter to send</div></div>",
+      "css": ".ds-composer{background:#fff;border-radius:3px;box-shadow:inset 0 0 0 1.5px #c8c4b8;transition:box-shadow .2s}.ds-composer:focus-within{box-shadow:inset 0 0 0 2px #141414}.ds-composer textarea{display:block;width:100%;box-sizing:border-box;border:0;background:transparent;resize:vertical;padding:14px 16px 0;font:400 12.5px/1.7 'Martian Mono', ui-monospace, Menlo, monospace;color:#141414;outline:none}.ds-composer textarea::placeholder{font:400 15px 'Hanken Grotesk', ui-sans-serif, system-ui, sans-serif;color:#6b675e}.ds-tools{padding:8px 10px 10px;font:400 13px 'Hanken Grotesk', ui-sans-serif, system-ui, sans-serif;color:#6b675e}"
+    },
+    {
+      "name": "Scenario Row",
+      "kind": "card",
+      "refersTo": "scenario-row",
+      "description": "Empty-state scenario list row with cream hover and nudging arrow.",
+      "html": "<ul class=\"ds-rows\"><li><button><b>Leaked AWS key</b><span> &middot; Developer, debug a deploy script</span><i aria-hidden=\"true\">&rarr;</i></button></li><li><button><b>Patient discharge note</b><span> &middot; Clinician, summarise for a referral</span><i aria-hidden=\"true\">&rarr;</i></button></li></ul>",
+      "css": ".ds-rows{list-style:none;margin:0;padding:0;background:#fff;border-radius:3px;overflow:hidden;box-shadow:inset 0 0 0 1px #e0ddd4}.ds-rows li+li{border-top:1px solid #e0ddd4}.ds-rows button{display:flex;width:100%;align-items:center;gap:12px;padding:10px 14px;border:0;background:transparent;text-align:left;font:400 15px 'Hanken Grotesk', ui-sans-serif, system-ui, sans-serif;color:#141414;cursor:pointer;transition:background-color .2s}.ds-rows b{font-weight:700}.ds-rows span{flex:1;color:#6b675e}.ds-rows i{font-style:normal;color:#6b675e;transition:transform .2s}.ds-rows button:hover,.ds-rows button:focus-visible{background:#fff3cc;outline:none}.ds-rows button:hover i{transform:translateX(2px);color:#141414}"
+    },
+    {
+      "name": "Channel Tabs and Switch",
+      "kind": "custom",
+      "refersTo": "tab-active",
+      "description": "Green-channel tabs with a 3px channel-colour underline, and the policy switch.",
+      "html": "<div class=\"ds-tabs\" role=\"tablist\"><button role=\"tab\" aria-selected=\"true\">Inspection <em>2</em></button><button role=\"tab\" aria-selected=\"false\">Vault manifest</button></div><button class=\"ds-switch\" role=\"switch\" aria-checked=\"true\" aria-label=\"Credentials\"><span></span></button>",
+      "css": ".ds-tabs{display:flex;gap:4px;background:#fbfaf7;border-bottom:1px solid #e0ddd4;padding:0 16px;margin-bottom:12px}.ds-tabs button{position:relative;margin-bottom:-1px;display:flex;align-items:center;gap:8px;border:0;background:none;padding:12px;font:700 14px 'Hanken Grotesk', ui-sans-serif, system-ui, sans-serif;color:#6b675e;cursor:pointer;transition:color .2s}.ds-tabs button:hover,.ds-tabs button[aria-selected=true]{color:#141414}.ds-tabs button[aria-selected=true]::after{content:'';position:absolute;left:8px;right:8px;bottom:0;height:3px;background:#00843d}.ds-tabs em{font-style:normal;background:#f4f3ef;color:#46433d;font-size:12px;padding:0 6px;border-radius:2px}.ds-tabs button:focus-visible{outline:2.5px solid #141414;outline-offset:2px}.ds-switch{position:relative;width:44px;height:24px;border:0;border-radius:999px;background:#c8c4b8;cursor:pointer;transition:background-color .2s}.ds-switch[aria-checked=true]{background:#00843d}.ds-switch span{position:absolute;top:3px;left:3px;width:18px;height:18px;border-radius:999px;background:#fff;box-shadow:0 1px 3px rgba(20,20,20,.3);transition:transform .2s cubic-bezier(.16,1,.3,1)}.ds-switch[aria-checked=true] span{transform:translateX(20px)}.ds-switch:focus-visible{outline:2.5px solid #141414;outline-offset:2px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Customs Hall",
+    "overview": "Every message clears customs. The screen is an airport customs hall in daylight: an off-white hall floor, black enamel signage overhead and underfoot, yellow wayfinding, and two channels that everyone already knows how to read. The red channel, \"Goods to declare\", holds the real values on this device. The green channel, \"Nothing to declare\", carries only placeholders to the cloud. Between them sits the gate, which names where the current message is. The system is built so that the mechanism is graspable in one look and the proof is one tab deeper.\n\nDensity is calm and professional: an operating surface for a developer, clinician or counsel, not a dashboard. Colour is used as signage, in full flat fields with white type, never as glow or gradient. Type is heavy grotesk for anything a sign would say and a narrow mono only for what is actually payload: the pasted text, the captured request, the tokens. The hall is light; it explicitly rejects the dark security-console look, terminal costume, and anything playful.",
+    "keyCharacteristics": [
+      "Light hall floor with black signage bands top (sign bar) and bottom (manifest strip).",
+      "Full-bleed red and green lane headers as solid colour fields with white heavy type.",
+      "Yellow is the wayfinding colour: active nav, the gate marker, the primary \"Clear customs\" action, the zero-bytes figure, selection.",
+      "Held values are marked red in place; cleared tokens are solid green chips; one stamped verdict per request.",
+      "Near-square enamel-sign corners (3px), drawn hairline rules instead of borders, almost no shadow.",
+      "Motion is functional and short: tokens march, verdicts stamp, new items rise."
+    ],
+    "rules": [
+      {
+        "name": "The Two Channels Rule",
+        "body": "Red means held on this device; green means cleared to the cloud. Neither appears as decoration, emphasis, or generic success/error anywhere else.",
+        "section": "colors"
+      },
+      {
+        "name": "The Wayfinding Rule",
+        "body": "Yellow is reserved for wayfinding and the single primary action. If a surface has two yellow buttons, one is wrong.",
+        "section": "colors"
+      },
+      {
+        "name": "The Lamp Rule",
+        "body": "On black signage, status uses lamps, not channel colours: `lamp-go`, `lamp-stop`, `yellow` for waiting, `sign-ink-2` for neutral.",
+        "section": "colors"
+      },
+      {
+        "name": "The Payload Rule",
+        "body": "Mono is only for things that are data: pasted text, code, request URL, headers, JSON, tokens, vault values, chrome:// flags. Labels, counts and headings are always Hanken Grotesk, even when they describe data.",
+        "section": "typography"
+      },
+      {
+        "name": "The Sign Voice Rule",
+        "body": "Anything a hall sign would say is set at weight 800 with negative tracking. Uppercase is reserved for the stamp alone.",
+        "section": "typography"
+      },
+      {
+        "name": "The Drawn Line Rule",
+        "body": "Wells are outlined with inset hairlines, not CSS borders, and never with a coloured left stripe.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do keep red strictly for \"held on this device\" and green strictly for \"cleared to the cloud\"; every red or green pixel should answer which channel it belongs to.",
+      "Do reserve wayfinding yellow for the active location, the gate, the single primary action and the 0-bytes figure.",
+      "Do use Martian Mono only for payload and data; set every heading, label and count in Hanken Grotesk.",
+      "Do set sign text at weight 800 with negative tracking, sentence case, and white on red/green/black fields.",
+      "Do outline wells with inset hairlines and keep corners at 3px (containers) or 2px (marks).",
+      "Do show values as marks in place: real values as held-value marks, placeholders as cleared-token chips.",
+      "Do use lamps (`lamp-go`, `lamp-stop`) for status on black signage, where channel colours lack contrast.",
+      "Do keep motion short and causal (march, stamp, rise) and honour reduced motion."
+    ],
+    "donts": [
+      "Don't turn the hall dark: no dark console theme, no neon, no glows, no terminal costume.",
+      "Don't use red or green as generic error/success, decoration, or emphasis outside the channel meaning.",
+      "Don't add a second yellow button or use yellow as a decorative accent.",
+      "Don't set headings, labels or UI in mono to look technical.",
+      "Don't use rounded-pill buttons or large radii; only switches and lamps are round.",
+      "Don't use coloured side-stripe borders on cards, gradients, or gradient text.",
+      "Don't use uppercase tracked labels; uppercase belongs to the stamp alone."
+    ]
+  }
+}

@@ -1,0 +1,124 @@
+@import 'tailwindcss';
+
+/*
+ * NullTrace — Customs Hall.
+ * A light hall floor, enamel signage black, wayfinding yellow, and the two
+ * customs channels: red (goods to declare, held on device) and green
+ * (nothing to declare, cleared to the cloud).
+ */
+@theme {
+  --font-sans: 'Hanken Grotesk', ui-sans-serif, system-ui, sans-serif;
+  --font-mono: 'Martian Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  --color-floor: #f4f3ef;
+  --color-panel: #fbfaf7;
+  --color-white: #ffffff;
+  --color-line: #e0ddd4;
+  --color-line-strong: #c8c4b8;
+
+  --color-ink: #141414;
+  --color-ink-2: #46433d;
+  --color-ink-3: #6b675e;
+
+  --color-sign: #141414;
+  --color-sign-2: #26241f;
+  --color-sign-3: #3a3731;
+  --color-sign-ink: #f4f3ef;
+  --color-sign-ink-2: #b9b4a8;
+
+  --color-yellow: #ffc72c;
+  --color-yellow-2: #ffd75e;
+  --color-yellow-tint: #fff3cc;
+
+  --color-red: #d52b1e;
+  --color-red-deep: #a81f15;
+  --color-red-tint: #fbe5e2;
+  --color-red-ink: #8f1a11;
+
+  --color-green: #00843d;
+  --color-green-deep: #006a31;
+  --color-green-tint: #dff1e6;
+  --color-green-ink: #005a29;
+
+  --radius-sign: 3px;
+
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+
+  --animate-march: march 1100ms ease-in-out infinite;
+  --animate-stamp: stamp 520ms var(--ease-out-expo) both;
+  --animate-rise: rise 320ms var(--ease-out-expo) both;
+
+  @keyframes march {
+    0%, 100% { opacity: 0.3; transform: translateX(0); }
+    50% { opacity: 1; transform: translateX(3px); }
+  }
+  @keyframes stamp {
+    from { opacity: 0; transform: scale(1.18) rotate(-4deg); filter: blur(3px); }
+    to { opacity: 1; transform: scale(1) rotate(-2deg); filter: blur(0); }
+  }
+  @keyframes rise {
+    from { opacity: 0.001; transform: translateY(6px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--color-floor);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  font-size: 15px;
+  -webkit-font-smoothing: antialiased;
+  font-variant-numeric: tabular-nums;
+  caret-color: var(--color-ink);
+}
+
+::selection {
+  background: var(--color-yellow);
+  color: var(--color-ink);
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-line-strong) transparent;
+}
+*::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+*::-webkit-scrollbar-thumb {
+  background: var(--color-line-strong);
+  border: 3px solid transparent;
+  background-clip: content-box;
+  border-radius: 999px;
+}
+
+:focus-visible {
+  outline: 2.5px solid var(--color-ink);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+.on-sign :focus-visible,
+.on-sign:focus-visible {
+  outline-color: var(--color-yellow);
+}
+
+a {
+  text-underline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

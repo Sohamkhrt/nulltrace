@@ -1,0 +1,46 @@
+{
+  "parameters": {
+    "policy_mode": {
+      "defaultValue": {
+        "value": "strict"
+      },
+      "description": "Redaction policy: \"strict\" | \"standard\"",
+      "valueType": "STRING"
+    },
+    "policy_version": {
+      "defaultValue": {
+        "value": "1.4"
+      },
+      "description": "Human-readable version of the active redaction policy",
+      "valueType": "STRING"
+    },
+    "custom_blocked_terms": {
+      "defaultValue": {
+        "value": "[\"Project Nightingale\",\"Bluefin\",\"ACME-INTERNAL\"]"
+      },
+      "description": "JSON array of org-specific terms that must never leave the device",
+      "valueType": "JSON"
+    },
+    "enable_audit_log": {
+      "defaultValue": {
+        "value": "true"
+      },
+      "description": "Keep a local (never uploaded) audit trail of redaction events",
+      "valueType": "BOOLEAN"
+    },
+    "cloud_model": {
+      "defaultValue": {
+        "value": "gemini-3.5-flash"
+      },
+      "description": "Cloud reasoning model for Stage 2",
+      "valueType": "STRING"
+    },
+    "cloud_model_fallback": {
+      "defaultValue": {
+        "value": "gemini-3.5-flash-lite"
+      },
+      "description": "Used automatically when the primary cloud model times out or is overloaded",
+      "valueType": "STRING"
+    }
+  }
+}
